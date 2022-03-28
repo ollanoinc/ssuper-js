@@ -32,19 +32,19 @@ To tailor the message experience to your platform and users, add an initializati
 ```html
 <script>
 window.ssuperAsyncInit = function () {
-	window.ssuper.init({
-		/*👇 the ethereum address users should message (e.g. your admin!) */
-		address: "0x6d96b22376e80c5275c2f8057446535c941afced",
-		/* 👇 modal width and height */
-		height: "min(635px, 100%)",
-		width: "400px",
-		/* 👇 header customization */
-		backgroundColor: "red",
-		// backgroundImage: "url('https://cdn.ssuper.co/icon.png')",
-		// backgroundImage: "linear-gradient(to right, #EE0979 0%, #FF6A00 51%, #EE0979 100%)",
-		/* 👇 accent color, only "white" and "black" are currently supported */
-		accentColor: "black",
-	});
+  window.ssuper.init({
+    /*👇 the ethereum address users should message (e.g. your admin!) */
+    address: "0x6d96b22376e80c5275c2f8057446535c941afced",
+    /* 👇 modal width and height */
+    height: "min(635px, 100%)",
+    width: "400px",
+    /* 👇 header customization */
+    backgroundColor: "red",
+    // backgroundImage: "url('https://cdn.ssuper.co/icon.png')",
+    // backgroundImage: "linear-gradient(to right, #EE0979 0%, #FF6A00 51%, #EE0979 100%)",
+    /* 👇 accent color, only "white" and "black" are currently supported */
+    accentColor: "black",
+  });
 }
 </script>
 <script async defer crossorigin="anonymous" src="https://cdn.ssuper.co/js-sdk/stable/sdk.js"></script>
