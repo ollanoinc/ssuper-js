@@ -25,7 +25,7 @@ Copy the code below into your document's `<body>`  to get started. Then, reload 
 
 Want to customize your messenger? Look no further. 👇
 
-### ✨ Customization
+### 🛠️ Customization
 
 To tailor the message experience to your platform and users, add an initialization function before loading the SDK.
 
@@ -56,7 +56,7 @@ Supply your own values, and build a polished and customized user experience.
 
 Want more customization? Ask us (or, contribute)! See below. 👇
 
-### ✨ Other Utilities
+### 💪 Other Utilities
 
 At any time you can:
 
@@ -70,7 +70,7 @@ window.ssuper.uninstall();
 **install**
 
 ```javascript
-window.ssuper.reload();
+window.ssuper.install();
 ```
 
 **reload**
