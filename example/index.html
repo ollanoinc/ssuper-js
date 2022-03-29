@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+		<meta name="description" content="Integrating the secure, safe, and free Web3 Messenger everywhere">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- iOS meta tags & icons -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Ssuper">
+		<link rel="apple-touch-icon" href="icon.png">
+
+		<!-- Social Meta --->
+		<meta property="og:title" content="Ssuper">
+		<meta property="og:description" content="The secure, safe, and free Web3 Messenger">
+		<meta property="og:image" content="https://ssuper-cdn.ollano.com/icon.png">
+		<meta property="og:url" content="https://showcase.ssuper.co">
+		<meta name="twitter:card" content="https://ssuper-cdn.ollano.com/icon.png">
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="favicon.png"/>
+
+		<title>Ssuper Messenger Showcase</title>
+		<style>
+			.center {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  max-width: 80%;
+			}
+		</style>
+	</head>
+	<body style="background-color:black;">
+		<script>
+			window.ssuperAsyncInit = function () {
+			  window.ssuper.init({
+			    /*👇 the ethereum address users should message (e.g. your admin!) */
+			    address: "0x6d96b22376e80c5275c2f8057446535c941afced",
+			    /*👇 the text to display */
+			    text: "Message Ssuper",
+			    /* 👇 modal width and height */
+			    // height: "min(635px, 100%)",
+			    // width: "400px",
+			    /* 👇 header customization */
+			    // backgroundColor: "red",
+			    // backgroundImage: "url('https://cdn.ssuper.co/icon.png')",
+			    // backgroundImage: "linear-gradient(to right, #EE0979 0%, #FF6A00 51%, #EE0979 100%)",
+			    /* 👇 accent color, only "white" and "black" are currently supported */
+			    // accentColor: "black",
+			  });
+			}
+		</script>
+		<script async defer crossorigin="anonymous" src="https://cdn.ssuper.co/js-sdk/stable/sdk.js"></script>
+		<div class="center">
+			<script src="https://gist.github.com/ghunkins/e26c49bf12661c13a55bdc54c89aa97f.js"></script>
+		</div>
+	</body>
+</html>
