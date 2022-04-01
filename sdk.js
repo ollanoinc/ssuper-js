@@ -104,6 +104,7 @@ const ssuperHeaderImageId = createCSSId({
 }, 'ssuper-header-image');
 
 const ssuperHeaderAddressId = createCSSId({
+  all: 'revert',
   alignSelf: 'center',
   fontSize: 22,
   fontWeight: '600',
