@@ -288,11 +288,6 @@ function _installDesktopSsuper() {
   ssuper.classList.add(ssuperClosedClass);
   ssuper.classList.add(ssuperDesktopClass);
 
-  // set config width
-  if (getConfigValue('width')) {
-    header.style.setProperty('width', getConfigValue('width'));
-  }
-
   // set config height
   if (getConfigValue('height')) {
     ssuperOpenClass = createCSSClass({
@@ -314,6 +309,11 @@ function _installDesktopSsuper() {
           arrow.classList.replace(ssuperArrowDownClass, ssuperArrowUpClass);
       }
   });
+
+  // set config width
+  if (getConfigValue('width')) {
+    header.style.setProperty('width', getConfigValue('width'));
+  }
 
   // set config header image or color
   if (getConfigValue('backgroundImage')) {
